@@ -283,6 +283,10 @@ h2.decore.bleu:after {
     transition: background 0.3s ease;
 }
 
+.cards-item {
+    width: calc(100% - 10px);
+}
+
 a.cards-item {
     text-decoration: none;
 }
