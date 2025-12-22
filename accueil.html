@@ -7,23 +7,67 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="scripts.js"></script>
 </head>
 
 <body class="responsive-elements">
-    <header>
-
+    <header class="main-header responsive-elements" id="haut">
+        <div class="wrapper">
+            <p class="header-logo"><a href="accueil.html">Société des établissements de plein air du Québec</a></p>
+            <nav class="header-nav">
+                <ul>
+                    <li class="icon-menu">
+                        <a href="#" onclick="afficherMenu()" class="header-nav-button is-trigger">
+                            <strong>Menu</strong>
+                            <span></span>
+                        </a>
+                        <ul class="header-nav-level is-list header-subnav">
+                            <li class="is-lowercase"><a href="https://www.sepaq.com/reservation/">Réservation en ligne</a></li>
+                            <li class="has-border"><a href="https://www.sepaq.com/pq/">Parcs nationaux</a></li>
+                            <li><a href="https://www.sepaq.com/rf/">Réserves fauniques</a></li>
+                            <li><a href="https://www.sepaq.com/ct/">Établissements touristiques</a></li>
+                            <li><a href="https://www.sepaq.com/sepaq-anticosti/">Sépaq Anticosti</a></li>
+                            <li class="is-lowercase has-border"><a href="https://www.sepaq.com/quoi-faire/">Quoi faire</a></li>
+                            <li class="is-lowercase"><a href="https://www.sepaq.com/hebergement/">Où dormir</a></li>
+                            <li class="is-lowercase"><a href="https://www.sepaq.com/evenements-groupes/index.dot">Événements et réunions</a></li>
+                            <li class="is-lowercase has-border"><a href="https://www.sepaq.com/organisation/">Notre organisation</a></li>
+                            <li class="is-lowercase"><a href="https://www.sepaq.com/blogue/">Blogue</a></li>
+                            <li class="is-lowercase"><a href="https://www.sepaq.com/organisation/carrieres-emplois.dot">Emplois</a></li>
+                            <li class="is-lowercase"><a href="#">Nous joindre</a></li>
+                            <li class="is-lowercase has-border"><a href="accueil.html">Accueil</a></li>
+                            <li class="is-lowercase is-lang"><a href="#" class="nav">English</a></li>
+                            <li class="has-border">
+                                <form class="search-bar" role="search" method="get" action="/recherche/index.dot" accept-charset="utf-8">
+                                    <label for="menu-search" class="is-visuallyhidden">Recherche</label>
+                                    <input name="q" id="menu-search" type="search" placeholder="Recherche" class="form-input">
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="icon-profile">
+                        <a class="header-nav-button" href="/fr/compte">Connexion à Mon Compte</a>
+                    </li>
+                    <li class="icon-booking">
+                        <a href="/reservation/" class="header-nav-button">Réserver</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <section class="hero responsive-elements">
         <div class="hero-img">
-            <a href="/pq/mme/" class="tag-repere">Parc national du Mont-Mégantic</a>
+            <a href="https://www.sepaq.com/pq/mme/" class="tag-repere">Parc national du Mont-Mégantic</a>
         </div>
-        <div class="hero-contenu">
+        <div class="hero-contenu" style="padding-left: 0;">
             <h1>
                 <img class="title-shadow" src="img/natureHumaine.svg">
             </h1>
         </div>
     </section>
+
     <div class="page-contenu">
+
         <section class="section-contenu">
             <div class="section-contenu-1 zigzag">
                 <div class="items-colonne visuel">
@@ -52,6 +96,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section-contenu center activites-img">
             <div class="section-contenu-1">
                 <h2 class="decore bleu">Activités de plein air</h2>
@@ -60,20 +105,18 @@
                     lieux accessibles et exceptionnels pour jouer dehors et&nbsp;apprécier&nbsp;l'hiver.
                 </p>
                 <div class="cards count-2">
-                    <a href="https://www.sepaq.com/quoi-faire/ski-fond.dot"
-                        onclick="ga('send', 'event', 'Cards', 'Clic', 'Activites - Ski de fond');" class="cards-item "
-                        data-tab="">
-                        <div class="cards-item-media">
-                            <img src="img/ski.jpg"srcset="//s3.amazonaws.com/imagescloud/images/cards/quoi-faire/ski-fond.jpg 1280w, //s3.amazonaws.com/imagescloud/images/cards/quoi-faire/ski-fond-thumb.jpg 600w"
-                            alt="">
+                    <a href="https://www.sepaq.com/quoi-faire/ski-fond.dot" class="cards-item" data-tab="">
+                        <div class="cards-item-media" onmouseover="aggrandir(this)" onmouseout="retrecir(this)">
+                            <img src="img/ski.jpg"
+                                srcset="//s3.amazonaws.com/imagescloud/images/cards/quoi-faire/ski-fond.jpg 1280w, //s3.amazonaws.com/imagescloud/images/cards/quoi-faire/ski-fond-thumb.jpg 600w"
+                                alt="">
                         </div>
                         <div class="cards-item-contenu">
                             <p class="cards-item-title">Ski de&nbsp;fond</p>
                         </div>
                     </a>
-                    <a href="https://www.sepaq.com/quoi-faire/raquette-sentiers.dot" onclick="ga('send', 'event', 'Cards', 'Clic', 'Activites - Raquette');"
-                        class="cards-item " data-tab="">
-                        <div class="cards-item-media">
+                    <a href="https://www.sepaq.com/quoi-faire/raquette-sentiers.dot" class="cards-item " data-tab="">
+                        <div class="cards-item-media" onmouseover="aggrandir(this)" onmouseout="retrecir(this)">
                             <img src="img/raquette.jpg"
                                 srcset="//s3.amazonaws.com/imagescloud/images/cards/quoi-faire/raquette.jpg 1280w, //s3.amazonaws.com/imagescloud/images/cards/quoi-faire/raquette-thumb.jpg 600w"
                                 alt="">
@@ -83,6 +126,10 @@
                         </div>
                     </a>
                 </div>
+                <p>
+                    <a href="https://www.sepaq.com/quoi-faire/#type=hiver" class="bouton is-blue">+ d'activités</a>
+                    &nbsp;<a href="https://www.sepaq.com/conditions-neige/" class="bouton is-blue">Conditions de neige</a>
+                </p>
             </div>
         </section>
         
