@@ -835,6 +835,144 @@ a.cards-item {
 
 /* ------ Page Accessibilité ------ */
 
+.responsive-elements h1,
+.responsive-elements h3 {
+  text-transform: uppercase;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.top .breadcrumb {
+  margin-bottom: 50px;
+  color: silver;
+  font-size: 1.5rem;
+}
+.top .breadcrumb a{
+    text-decoration: none;
+    color: #005c9a;
+}
+
+.top h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0 0 15px 0;
+}
+
+.top p{
+    max-width: 110ch;     
+    width: 100%;
+    padding: 0 1rem;      
+    text-align: center;
+    height: auto;         
+}
+
+.accessiblite-image-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+    display: block;
+  
+}
+
+.accessiblite-image-div {
+    position: relative;
+    width: 100vw;
+    height: 80vh;         
+    overflow: hidden;
+}
+
+
+.middle h2{
+    width: 80%;
+}
+
+.middle p{
+    font-weight: 00;
+}
+
+
+.sorties-simples{
+    max-width: 1045px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 30px;
+
+}
+
+
+
+.ete-hiver-bouttons button{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2095f2;
+    border: none;
+    border-radius: 5px;
+    padding:  13px 17px;
+}
+
+.ete-hiver-bouttons{
+    display: flex;
+    gap: 20px;
+    margin: 0 0 1.25em 0
+}
+
+.responsive-elements .consulter-aussi{
+    background-color: #D4D4D4;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.responsive-elements .consulter-aussi p{
+    color: #404040;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+
+}
+
+.consulter-aussi a{
+    color: #404040;
+}
+
+.comm-prealablement{
+    color: inherit;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: .8;
+    max-width: 200ch;
+}
+
+.chien-guides, .documentation {
+    background-color: #efefef;
+}
+
+.chien-guides > div,.carte-accompagnement, .documentation > div, .accessibilite-site-web{
+    max-width: 1045px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.chien-guides > div > p {
+    width: 100%;
+    max-width: 110ch;
+}
+
+.accessibilite-site-web h3{
+    font-size: 24px;
+}
 
 
 /* ------ Media ------ */
@@ -883,3 +1021,26 @@ a.cards-item {
         max-width: 320px;
     }
 }
+
+@media (max-width: 767px) {
+    .top h1 {
+        font-size: 32px;
+    }
+
+    .accessiblite-image-div {
+        height: 50vh;
+    }
+
+    .ete-hiver-bouttons{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .ete-hiver-bouttons button{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+}
+
