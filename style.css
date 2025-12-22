@@ -975,77 +975,6 @@ a.cards-item {
 }
 
 
-/* ------ Media ------ */
-
-@media (min-width: 991px) {
-    .hero {
-        padding-bottom: 0;
-        height: 576px;
-    }
-
-    .section-contenu {
-        padding-top: 90px;
-        padding-bottom: 90px;
-    }
-
-    .section-contenu-1 {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .visuel .item-gauche.gauche {
-        margin: 0;
-        position: relative;
-        padding: 0 30px 0 0;
-    }
-
-    .visuel .item-droite.droite {
-        padding: 0 0 0 30px;
-    }
-}
-
-@media (min-width: 1199px) {
-     .section-contenu {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
-    .section-contenu-1 {
-        padding-left: 120px;
-        padding-right: 120px;
-    }
-
-    .cards-item {
-        max-width: 320px;
-    }
-}
-
-@media (max-width: 767px) {
-    .top h1 {
-        font-size: 32px;
-    }
-
-    .accessiblite-image-div {
-        height: 50vh;
-    }
-
-    .ete-hiver-bouttons{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-    
-    .ete-hiver-bouttons button{
-        display: flex;
-        justify-content: center;
-        flex: 1;
-    }
-}
-
-
-
 /* CSS page Nous-Joindre Sépaq */
 * {
   box-sizing: border-box;
@@ -1135,7 +1064,7 @@ ul.Top_info li:last-child a {
 
 /* Section Soyez informé */
 section.Soyez_informé {
-  background: #4a4a4a;
+  background: #404040;
   color: #fff;
   text-align: center;
 }
@@ -1149,10 +1078,13 @@ section.Soyez_informé h3 {
 }
 
 section.Soyez_informé p {
-  max-width: 700px;
+  max-width: 1000px;
   min-height: 10px;
 }
 
+.inscrivez-vous{
+    width: 100%;
+}
 
 /* Section message jaune*/
 .message_jaune {
@@ -1214,8 +1146,10 @@ section.Contactez-nous .Préposé {
 }
 
 .Bouton.vert {
-  background: #7ac943;
+  background: #79d156;
   color:#4a4a4a;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 /* Section Centre de relations */
@@ -1406,6 +1340,99 @@ section.Info_emplacements_touristiques .acc__plus{
 .page-nous-joindre .form-input {
     font-size: 16px;
 }
+
+
+
+/* ------ Media ------ */
+
+@media (min-width: 991px) {
+    .hero {
+        padding-bottom: 0;
+        height: 576px;
+    }
+
+    .section-contenu {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .section-contenu-1 {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .visuel .item-gauche.gauche {
+        margin: 0;
+        position: relative;
+        padding: 0 30px 0 0;
+    }
+
+    .visuel .item-droite.droite {
+        padding: 0 0 0 30px;
+    }
+}
+
+@media (min-width: 1199px) {
+     .section-contenu {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .section-contenu-1 {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .cards-item {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top h1 {
+        font-size: 32px;
+    }
+
+    .accessiblite-image-div {
+        height: 50vh;
+    }
+
+    .ete-hiver-bouttons{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .ete-hiver-bouttons button{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+
+    .Footer_nous-joindre .wrapper, .Footer_contacts, .Footer_autre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer_nous-joindre h3, ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Footer_nous-joindre li > a{
+        color: #404040;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+}
+
 
 
 
