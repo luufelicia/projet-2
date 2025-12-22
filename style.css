@@ -214,7 +214,6 @@ section {
 }
 
 .title-shadow {
-    -webkit-filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .7));
     filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .7));
     width: 218px;
 }
@@ -263,8 +262,6 @@ body.page-info {
     background: #000;
     background: rgb(0 0 0 / .5);
     z-index: 10;
-    -webkit-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
 
@@ -322,8 +319,6 @@ body.page-info {
 .responsive-elements a {
     color: #005c9a;
     text-decoration: underline;
-    -webkit-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 
@@ -349,8 +344,6 @@ body.page-info {
     border-bottom: 20px solid transparent;
     border-left: 35px solid white;
     opacity: 0.7;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     z-index: 2;
 }
@@ -368,14 +361,8 @@ body.page-info {
     border: 4px solid white;
     border-radius: 100px;
     opacity: 0.7;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
     z-index: 1;
 }
 
@@ -397,20 +384,15 @@ body.page-info {
 
 .zigzag .video img {
     border-bottom: 1px solid #d4d4d4;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
 }
 
-
 .video img {
     max-width: 100%;
 }
 
 .video img {
     max-width: 100%;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 h2.decore, .rwd h3.decore {
@@ -458,8 +440,6 @@ h2.decore.bleu:after {
     font-size: 1.6rem;
     margin: 5px;
     overflow: hidden;
-    -webkit-transition: background 0.3s ease;
-    -o-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
 
@@ -506,10 +486,7 @@ a.cards-item {
     left: 50%;
     width: auto;
     height: 100%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -530,8 +507,6 @@ a.cards-item {
     color: #fff;
     text-align: center;
     z-index: 10;
-    -webkit-transition: opacity 0.3s ease;
-    -o-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
 }
 
@@ -599,7 +574,6 @@ a.cards-item {
     background: #ccc;
     border: 3px solid #ccc;
     cursor: pointer;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -629,8 +603,6 @@ a.cards-item {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -670,9 +642,6 @@ a.cards-item {
     background: #efefef;
     border: 1px solid #d4d4d4;
     border-radius: 4px;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 .header-subnav li:hover {
@@ -701,10 +670,6 @@ a.cards-item {
     height: 30px;
     background: url("img/sprite-rwd.svg") -30px -80px no-repeat;
 }
-
-/* .icon-booking .header-nav-button {
-    text-indent: -9999px;
-} */
 
 .icon-booking .header-nav-button::after {
     content: "";
@@ -748,11 +713,7 @@ a.cards-item {
     }
 
     .items-colonne {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
     }
 
     .visuel .item-gauche,
@@ -902,8 +863,6 @@ a.cards-item {
     padding: 120px 30px;
 
 }
-
-
 
 .ete-hiver-bouttons button{
     text-transform: uppercase;
