@@ -1044,3 +1044,370 @@ a.cards-item {
     }
 }
 
+
+
+/* CSS page Nous-Joindre Sépaq */
+* {
+  box-sizing: border-box;
+}
+
+/* Taille de caractère pour toute la page Nous-joindre*/
+.page-nous-joindre {
+  font-size: 16px;
+}
+
+.page-nous-joindre body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #fff;
+}
+
+.contenu {
+    font-size: 16px;
+}
+
+.section-content,section {
+  width: 100%;
+}
+
+.section-content-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Section Top Info */
+ul.Top_info {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  display: flex;
+  gap: 10px;
+  font-size: 0.9rem;
+  justify-content: center;
+}
+
+ul.Top_info li a {
+  text-decoration: none;
+  color: #0072ce;
+}
+
+ul.Top_info li::after {
+  content: ">";
+  margin-left: 10px;
+  color: #999;
+}
+
+ul.Top_info li:last-child::after {
+  content: "";
+}
+
+ul.Top_info li:last-child a {
+  color: #999;
+}
+
+/* Titres et paragraphes*/
+.page-nous-joindre h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.page-nous-joindre h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.page-nous-joindre h3, .section-content-content h3 {
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+.page-nous-joindre p, .section-content-content p {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+/* Section Soyez informé */
+section.Soyez_informé {
+  background: #4a4a4a;
+  color: #fff;
+  text-align: center;
+}
+
+.page-nous-joindre .Soyez_informé h3 {
+  font-size: 1.5rem;
+}
+
+section.Soyez_informé h3 {
+  font-size: 2.5rem;
+}
+
+section.Soyez_informé p {
+  max-width: 700px;
+  min-height: 10px;
+}
+
+
+/* Section message jaune*/
+.message_jaune {
+  background: #fff176;
+  border-left: 6px solid #f4c400;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.message_jaune p {
+  margin: 0;
+  text-align: left;
+}
+
+/* Section Contactez-nous */
+
+.Contactez-nous {
+  margin-top: 70px;
+}
+section.Contactez-nous {
+  background: #f2f2f2;
+  padding-top: 50px;   
+  text-align: center;
+  position: relative;
+}
+
+section.Contactez-nous p {
+  max-width: 900px;
+}
+
+/* Photo du proposé dans la section Contactez-nous */
+
+section.Contactez-nous .Préposé {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  position: absolute;
+  top: -70px;          
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Boutons bleus et verts */
+.Bouton {
+  display: inline-block;
+  padding: 14px 24px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  margin: 10px;
+}
+
+.Bouton.bleu {
+  background: #1e88e5;
+}
+
+.Bouton.vert {
+  background: #7ac943;
+  color:#4a4a4a;
+}
+
+/* Section Centre de relations */
+section.Info_centre_relations {
+  background: #fff;
+  text-align: left;
+}
+
+section.Info_centre_relations h2,
+section.Info_centre_relations h3,
+section.Info_centre_relations p {
+  text-align: left;
+  max-width: 100%;
+}
+
+/* Section Siège social */
+section.Siège_social {
+  background: #f2f2f2;
+}
+
+section.Siège_social h2 {
+  text-align: left;
+}
+
+section.Siège_social p {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section.Siège_social {
+  padding: 40px 0;
+}
+
+/* Section emplacements touristiques */
+
+section.Info_emplacements_touristiques{
+  background: #fff;
+  padding: 40px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+section.Info_emplacements_touristiques .acc{
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+section.Info_emplacements_touristiques .acc:first-child{
+  border-top: none; 
+}
+
+section.Info_emplacements_touristiques .acc__row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 20px;         
+}
+
+section.Info_emplacements_touristiques .acc__label{
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #444;
+  letter-spacing: 0.5px;
+}
+
+section.Info_emplacements_touristiques .acc__plus{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #444;
+  line-height: 1;
+}
+
+/* Footer Nous joindre */
+
+.Footer_nous-joindre {
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer_nous-joindre .wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 32px 34px;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  column-gap: 90px;
+  row-gap: 28px;
+  align-items:flex-start;
+}
+
+
+/* titres */
+.Footer_nous-joindre h3{
+  margin: 0 0 18px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* listes */
+.Footer_nous-joindre ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.Footer_nous-joindre li{
+  margin: 0 0 18px;
+}
+
+/* liens */
+.Footer_nous-joindre a{
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 200;
+}
+
+.Footer_nous-joindre a:hover{
+  text-decoration: underline;
+}
+
+/* Section séparée par lignes */
+
+.Footer_nous-joindre .Footer_contacts{
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 0;
+  margin-top: 10px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.Footer_nous-joindre .Footer_contacts .téléphone{
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.Footer_nous-joindre .Footer_contacts .Réseaux{
+  display: block;
+  height: 60px;    
+  width: auto;
+}
+
+.Footer_nous-joindre .Footer_autre{
+  grid-column: 1 / -1;
+  border-top: 1px solid #e6e6e6;
+  padding: 26px 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.Footer_nous-joindre .Footer_autre a{
+  color: #666;
+  text-decoration: none;
+}
+
+/* Ajustement grosseur du text dans la navbar */
+
+.page-nous-joindre .icon-menu .header-nav-button strong {
+    bottom: 8px;
+    font-size: .6rem;
+}
+
+.page-nous-joindre .icon-menu .header-nav-level {
+    font-size: 16px;
+}
+
+
+.page-nous-joindre .icon-booking {
+    bottom: 8px;
+    font-size: 16px;
+}
+
+
+.page-nous-joindre .form-input {
+    font-size: 16px;
+}
+
+
+
+
+
