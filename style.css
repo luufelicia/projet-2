@@ -66,6 +66,18 @@ section {
     text-indent: 0;
 }
 
+.icon-menu .header-nav-button:hover {
+    background:#414040;
+}
+
+.icon-profile .header-nav-button:hover {
+    background:#414040;
+}
+
+.icon-booking .header-nav-button:hover {
+    background: #414040;
+}
+
 .header-nav-button strong {
     position: absolute;
     bottom: 6px;
@@ -92,6 +104,33 @@ section {
     top: 21px;
     left: 50%;
     margin-left: -12px;
+}
+
+.icon-menu .header-nav-button span {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 24px;
+    margin-left: -12px;
+    border-top: 2px solid #fff;
+}
+
+.icon-menu .header-nav-button span::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    width: 24px;
+    border-top: 2px solid #fff;
+}
+
+.icon-menu .header-nav-button span::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    width: 24px;
+    border-top: 2px solid #fff;
 }
 
 .is-active .header-nav-button {
@@ -133,6 +172,7 @@ section {
 .header-nav-button {
     display: block;
     position: absolute;
+    right: 0;
     top: 0;
     width: 54px;
     height: 54px;
@@ -662,6 +702,21 @@ a.cards-item {
     background: url("img/sprite-rwd.svg") -30px -80px no-repeat;
 }
 
+/* .icon-booking .header-nav-button {
+    text-indent: -9999px;
+} */
+
+.icon-booking .header-nav-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -15px;
+    width: 30px;
+    height: 30px;
+    background: url("img/sprite-rwd.svg") -60px -80px no-repeat;
+}
+
 @media (min-width: 768px) {
 
     .wrapper {
@@ -756,6 +811,7 @@ a.cards-item {
     }
 
     .icon-booking .header-nav-button {
+        right: 0px;
         width: 120px;
         text-indent: 0;
         color: #404040;
@@ -763,10 +819,18 @@ a.cards-item {
         border: none;
     }
 
+    .icon-booking .header-nav-button::after {
+        content: none;
+        display: none;
+    }
+
     .icon-booking .header-nav-button {
         right: 0;
     }
 
+    .icon-booking .header-nav-button:hover {
+        background: #69b54b;
+    }
 }
 
 @media (min-width: 991px) {
