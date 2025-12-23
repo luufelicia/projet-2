@@ -1,4 +1,4 @@
-/* Sarah Kessi - 20348702, Felicia Luu - 22334856 */
+/* Sarah Kessi - 20348702, Felicia Luu - 22334856, Marie Makarenkov 20342056, Kenza Hilali 20205908 */
 
 /* ------ Page Accueil ------ */
 
@@ -363,7 +363,10 @@ body.page-info {
     opacity: 0.7;
     box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
     transition: all 0.3s ease;
+=======
+>>>>>>> 2661e0633003145997dcfc9c6958c32b35e28e28
     z-index: 1;
 }
 
@@ -388,14 +391,16 @@ body.page-info {
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
 }
 
-
 .video img {
     max-width: 100%;
 }
 
 .video img {
     max-width: 100%;
+<<<<<<< HEAD
     transition: all 0.3s ease;
+=======
+>>>>>>> 2661e0633003145997dcfc9c6958c32b35e28e28
 }
 
 h2.decore, .rwd h3.decore {
@@ -621,7 +626,10 @@ a.cards-item {
 
 .form-select.is-range.is-visuallyhidden, .is-visuallyhidden {
     border: 0;
+<<<<<<< HEAD
     clip-path: inset(50%);
+=======
+>>>>>>> 2661e0633003145997dcfc9c6958c32b35e28e28
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -645,7 +653,10 @@ a.cards-item {
     background: #efefef;
     border: 1px solid #d4d4d4;
     border-radius: 4px;
+<<<<<<< HEAD
     transition: all 0.3s ease;
+=======
+>>>>>>> 2661e0633003145997dcfc9c6958c32b35e28e28
 }
 
 .header-subnav li:hover {
@@ -674,10 +685,6 @@ a.cards-item {
     height: 30px;
     background: url("img/sprite-rwd.svg") -30px -80px no-repeat;
 }
-
-/* .icon-booking .header-nav-button {
-    text-indent: -9999px;
-} */
 
 .icon-booking .header-nav-button::after {
     content: "";
@@ -871,8 +878,6 @@ a.cards-item {
     padding: 120px 30px;
 
 }
-
-
 
 .ete-hiver-bouttons button{
     text-transform: uppercase;
@@ -1383,7 +1388,7 @@ section.Info_emplacements_touristiques .acc__plus{
         justify-content: center;
     }
 
-    .Footer_nous-joindre h3, ul{
+    .Footer_nous-joindre h3, .page-nous-joindre ul{
         display: flex;
         flex-direction: column;
         align-items: center;
