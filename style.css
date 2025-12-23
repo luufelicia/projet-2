@@ -1,4 +1,4 @@
-/* Sarah Kessi - 20348702, Felicia Luu - 22334856 */
+/* Sarah Kessi - 20348702, Felicia Luu - 22334856, Marie Makarenkov 20342056, Kenza Hilali 20205908 */
 
 /* ------ Page Accueil ------ */
 
@@ -1373,7 +1373,7 @@ section.Info_emplacements_touristiques .acc__plus{
         justify-content: center;
     }
 
-    .Footer_nous-joindre h3, ul{
+    .Footer_nous-joindre h3, .page-nous-joindre ul{
         display: flex;
         flex-direction: column;
         align-items: center;

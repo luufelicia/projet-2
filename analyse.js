@@ -1,3 +1,4 @@
+// Sarah Kessi - 20348702, Felicia Luu - 22334856, Marie Makarenkov 20342056, Kenza Hilali 20205908
 console.log("Titre de la page: ", document.title);
 console.log("URL de la page: ", window.location.href);
 
